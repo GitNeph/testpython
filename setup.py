@@ -22,7 +22,7 @@ setup(
     author='KlutzyBubbles',
     author_email='LTzilantois@gmail.com',
     url='https://github.com/KlutzyBubbles/testpython',
-    packages=find_packages(include=['testpython']),
+    packages=find_packages(),
     entry_points={
         'console_scripts': [
           'tp-one=testpython.one:main',

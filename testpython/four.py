@@ -1,7 +1,7 @@
-from .foo import Config
+from .foo import config
 
 def main(args=None):
-  print('One')
+  print('Four')
 
 if __name__ == '__main__':
   main()

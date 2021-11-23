@@ -1,4 +1,4 @@
-from testpython.foo.config import Config
+from .foo import config
 
 def main(args=None):
   print('One')
